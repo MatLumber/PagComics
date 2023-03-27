@@ -1,0 +1,45 @@
+.Video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 4px 1px black;
+    margin-top: 25px;
+}
+
+.titulo h4{
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+}
+
+.titulo h4 a{
+    text-decoration: none;
+}
+
+.Contenedor{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.Contenedor-info{
+    width: auto;
+    height: 200px;
+    background-color: rgb(242,242,242);
+    box-shadow: 0px 0px 3px 0.5px black;
+    margin-top:15px;
+    padding: 10px;
+}
+
+#titulo-info a{
+    text-decoration: none;
+}
+
+#titulo-info{
+    font-size: 20px;
+    
+}
+
+#sub-info{
+    font-size: 15px;
+}

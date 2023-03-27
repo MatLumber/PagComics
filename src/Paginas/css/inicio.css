@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.color-auto{
+    background-color: rgb(15,17,40);
+}
+
+.navbar-nav a{
+    color: white !important;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.big-carousel{
+    width: 100%;
+}
+
+.img-slide{
+    margin-top: 40px;
+    height: auto;
+    max-width: 200px!important;
+    border-radius: 10px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+@keyframes glow{
+    from {
+      text-shadow: 0 0 2px rgb(177, 135, 10), 0 0 3px rgb(177, 135, 10), 0 0 5px rgb(177, 135, 10), 0 0 6px rgb(177, 135, 10), 0 0 7px rgb(177, 135, 10), 0 0 8px rgb(177, 135, 10), 0 0 10px rgb(177, 135, 10);
+    }
+    to {
+      text-shadow: 0 0 2px #fff, 0 0 3px rgb(227, 173, 15), 0 0 4px rgb(227, 173, 15), 0 0 5px rgb(227, 173, 15), 0 0 6px rgb(227, 173, 15), 0 0 7px rgb(227, 173, 15), 0 0 10px rgb(227, 173, 15);
+    }
+  }
+
+.img-slide img:hover{
+    border: 1px solid #EE2D2F;
+    box-shadow: 0px 0px 8px 1px black;
+    transition: 0.3s;
+    -webkit-transition: 0.1s;
+}
+
+.img-slide img{
+    width: 200px;
+    height: 308.8px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.ImgCosas{
+    cursor: pointer;
+}
+
+.grid-items{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.slick-list{
+    margin:0 200px;
+}
+
+.grid-items h2{
+    position: relative;
+    top: 35px;
+    margin-left: 210px;
+    
+}
+
+.top-left{
+    position: absolute;
+    background-color: rgb(39,127,208);
+    width: 50px;
+    height: 20px;
+    color: white;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 10px;
+}
+.img-slide:hover .ImgCosas h5{
+    animation: glow 1s ease-in-out infinite alternate;
+    transition: 0.3s;
+  -webkit-transition: 0.3s;
+}
+
+.top-left h3{
+    position: absolute;
+    left: 3px;
+    font-size: 15px;
+}
+
+.fade-text{
+    position: absolute;
+    bottom: 5px;
+    height: 90px;
+    width: 200px;
+    background: linear-gradient(180deg, rgba(0,0,0,0), black);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+.fade-text h5{
+    font-family: 'Varela Round', sans-serif;
+    
+    color: white;
+    position: absolute;
+    left: 23px;
+}
+
+.fade-text hr{
+    position: absolute;
+    width: 150px;
+    height: 1px;
+    opacity: 1;
+    background-color: gray;
+    top: 35px;
+}
+
+.desc h4{  
+    position: absolute;
+    color: rgb(169,169,169);
+    top: 55px;
+    left: 23px;
+    font-size: 15px;
+}
+
+.slick-track{
+    margin-left: 12px;
+}
+
+.grid-items h2 i{
+    color: rgb(255,26,76);
+}
+
+.slick-prev:before, .slick-next:before{
+    color:red;
+    font-size: 35px;
+}
+
+.slick-prev{
+    left: 150px;
+}
+
+.slick-next{
+    right: 150px;
+}
+
+.comics-war{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    margin-top: 50px;
+    background-image: url(../ImgInicio/dcvsmarvel.png);
+}
+
+
+.top-left h3{
+    position: absolute;
+    left: 3px;
+    font-size: 15px;
+    
+}
+
+.Anime{
+    margin-top: 100px;
+    background-color: rgb(233,233,233);
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+
+#titulo-anime h5{
+    top: 25px;
+}
+
+#titulo-anime-metal h5{
+    bottom: 35px;
+}
+
+.Footer{
+    margin-top: 50px;
+    background-color: rgb(56,57,57);
+    width: 100%;
+    height: 220px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 20px solid rgb(45,45,55);
+}
+
+.cont-footer{
+    width: 1200px;
+    height: 200px;
+    position: relative;
+}
+
+#texto h5{
+    position: relative;
+    top: 15px;
+    left: 10px;
+    font-size: 12px;
+    margin: 2px 0 6px 0;
+    width: 850px;
+    word-break: keep-all;
+    font-family: 'Varela Round', sans-serif;
+    color: #8d8d98;
+}
+
+#politicas{
+    margin-top: 50px;
+    color:  #9c9da7;
+    list-style: none;
+    right: 20px;
+    font-size: 15px;
+    position: relative;
+}
+
+#politicas li{
+    display: inline-block;
+}
